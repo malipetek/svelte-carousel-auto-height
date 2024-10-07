@@ -1,0 +1,23 @@
+{
+  "name": "svelte-carousel-auto-height",
+  "private": false,
+  "version": "0.0.22",
+  "author": "malipetek",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "main": "dist/index.js",
+  "svelte": "src/index.js",
+  "module": "src/index.mjs",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "svelte": "^4.2.18",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "svelte-carousel": "./svelte-carousel"
+  }
+}
